@@ -84,12 +84,12 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="num" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="num" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="20" valType="num" updates="constant" name="stopVal"/>
+        <Param val="" valType="num" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="The game that you are about to play is called Red Light, Green Light. You will see a rapid serial presentation of two dolls - one facing forward and the other facing backwards. Whenever you see a doll facing backwards (&quot;Green Light&quot;), you will respond by pressing the space bar as quickly as you can. Whenever you see a doll facing forwards (&quot;Red Light&quot;), you will withhold responding. &amp;#10;&amp;#10;When you're ready, please press the spacebar to begin!" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
@@ -110,7 +110,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="num" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="20" valType="num" updates="constant" name="stopVal"/>
+        <Param val="" valType="num" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
@@ -133,13 +133,42 @@
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
+      <ImageComponent name="doll_image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$trial_img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="doll_image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val=".8" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
       <CodeComponent name="code" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# Approach 1 (simple hard-coding):&amp;#10;#im_sequence = [&quot;resources\squid_game_doll_backward&quot;, &quot;resources\squid_game_doll_backward&quot;, &quot;resources\squid_game_doll_backward&quot;, &quot;resources\squid_game_doll_forward&quot;]&amp;#10;&amp;#10;# Approach 3 (using indexing):&amp;#10;sequence = [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0]&amp;#10;image_names = [&quot;resources/squid_game_doll_backward&quot;,&quot;resources/squid_game_doll_forward&quot;]&amp;#10;&amp;#10;im_sequence = []&amp;#10;for i in sequence:&amp;#10;    im_sequence.append(image_names[i])&amp;#10;    &amp;#10;# Specify the nReps:&amp;#10;seq_len = len(sequence)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="sequence = [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0];&amp;#10;image_names = [&quot;resources\\squid_game_doll_backward&quot;, &quot;resources\\squid_game_doll_forward&quot;];&amp;#10;im_sequence = [];&amp;#10;for (var i, _pj_c = 0, _pj_a = sequence, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    im_sequence.append(image_names[i]);&amp;#10;}&amp;#10;seq_len = sequence.length;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="doll_im_path = im_sequence[trials.thisRepN];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="doll_im_path = im_sequence[trials.thisRepN]" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="from random import random&amp;#10;&amp;#10;trial_img = &quot;resources/squid_game_doll_backward.png&quot;&amp;#10;&amp;#10;all_img = [&quot;resources/squid_game_doll_backward.png&quot;, &quot;resources/squid_game_doll_forward.png&quot;] &amp;#10;&amp;#10;&amp;#10;&amp;#10;num_trials = 20&amp;#10;trial_sequence = []&amp;#10;&amp;#10;for i in range(num_trials):&amp;#10;    trial_sequence.append(round(random()))&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="trial_img = &quot;resources/squid_game_doll_backward.png&quot;;&amp;#10;all_img = [&quot;resources/squid_game_doll_backward.png&quot;, &quot;resources/squid_game_doll_forward.png&quot;];&amp;#10;trial_sequence = [0, 0, 0, 1, 0, 1, 1];&amp;#10;num_trials = trial_sequence.length;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="trial_val = trial_sequence[trials.thisN];&amp;#10;trial_img = all_img[trial_val];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="trial_val = trial_sequence[trials.thisN]&amp;#10;&amp;#10;trial_img = all_img[trial_val]" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -150,50 +179,21 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code" valType="code" updates="None" name="name"/>
       </CodeComponent>
-      <ImageComponent name="doll_im" plugin="None">
-        <Param val="center" valType="str" updates="constant" name="anchor"/>
-        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
-        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
-        <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="False" valType="code" updates="constant" name="draggable"/>
-        <Param val="" valType="num" updates="None" name="durationEstim"/>
-        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
-        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="$doll_im_path" valType="file" updates="set every repeat" name="image"/>
-        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
-        <Param val="" valType="str" updates="constant" name="mask"/>
-        <Param val="doll_im" valType="code" updates="None" name="name"/>
-        <Param val="" valType="num" updates="constant" name="opacity"/>
-        <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.35, 0.5)" valType="list" updates="constant" name="size"/>
-        <Param val="" valType="num" updates="None" name="startEstim"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="num" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="1" valType="num" updates="constant" name="stopVal"/>
-        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
-        <Param val="" valType="code" updates="None" name="validator"/>
-      </ImageComponent>
-      <KeyboardComponent name="task_kb" plugin="None">
+      <KeyboardComponent name="trial_kb" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
-        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
-        <Param val="task_kb" valType="code" updates="None" name="name"/>
+        <Param val="trial_kb" valType="code" updates="None" name="name"/>
         <Param val="press" valType="str" updates="constant" name="registerOn"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="1.2" valType="num" updates="constant" name="stopVal"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
@@ -221,9 +221,9 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="task_kb_keys = trials.data[&quot;task_kb.keys&quot;];&amp;#10;commission_error_count = 0;&amp;#10;nogo_count = 0;&amp;#10;for (var i = 0, _pj_a = task_kb_keys[0].length; (i &lt; _pj_a); i += 1) {&amp;#10;    if ((sequence[i] === 1)) {&amp;#10;        nogo_count += 1;&amp;#10;        if ((task_kb_keys[0][i] === &quot;space&quot;)) {&amp;#10;            commission_error_count += 1;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;commission_error_rate = (commission_error_count / nogo_count);&amp;#10;feedback_str = (&quot;Commission error rate: &quot; + commission_error_rate.toString());&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# Grabs the keys for task_kb&amp;#10;task_kb_keys = trials.data['task_kb.keys']&amp;#10;&amp;#10;# Counts of commission errors and nogo trials&amp;#10;commission_error_count = 0&amp;#10;nogo_count = 0&amp;#10;for i in range(len(task_kb_keys[0])):&amp;#10;    # Checks if it is a nogo trial&amp;#10;    if sequence[i] == 1:&amp;#10;        nogo_count += 1&amp;#10;        # Checks if a space was pressed (and it was a nogo trial)&amp;#10;        if task_kb_keys[0][i] == 'space':&amp;#10;            commission_error_count += 1&amp;#10;&amp;#10;# Calculate commision error rate based on counts&amp;#10;commission_error_rate = commission_error_count/nogo_count&amp;#10;&amp;#10;# build the feedback string&amp;#10;feedback_str = 'Commission error rate: ' + str(commission_error_rate)" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="task_kb_keys = trials.data['trial_kb.keys']&amp;#10;nogo_responses = []&amp;#10;&amp;#10;for i in range(num_trials):&amp;#10;    trial_type = trial_sequence[i]&amp;#10;    &amp;#10;    if trial_type:&amp;#10;        nogo_responses.append(task_kb_keys[i] != 'space')&amp;#10;        &amp;#10;        &amp;#10;correct_resp = sum(nogo_responses)&amp;#10;total_resp = len(nogo_responses)&amp;#10;percent_correct = int((correct_resp/total_resp)*100)&amp;#10;&amp;#10;feedback_string = f&quot;Correct: {correct_resp} \n Total: {total_resp} \n Percentage: {percent_correct}%&quot;&amp;#10;&amp;#10;thisExp.addData('correct_responses', correct_resp)&amp;#10;thisExp.addData('total_nogo_trials', total_resp)&amp;#10;        " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
@@ -233,48 +233,48 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
-      <TextComponent name="fb_text" plugin="None">
+      <TextComponent name="text" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="False" valType="code" updates="constant" name="draggable"/>
-        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="None" valType="str" updates="constant" name="flip"/>
-        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
-        <Param val="fb_text" valType="code" updates="None" name="name"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="20" valType="num" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$feedback_str" valType="str" updates="set every repeat" name="text"/>
+        <Param val="$feedback_string" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <KeyboardComponent name="fb_kb" plugin="None">
+      <KeyboardComponent name="key_resp" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
-        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
-        <Param val="fb_kb" valType="code" updates="None" name="name"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
         <Param val="press" valType="str" updates="constant" name="registerOn"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="20" valType="num" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
@@ -284,13 +284,13 @@
   <Flow>
     <Routine name="instr"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="conditionsFile" updates="None" val="" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="seq_len" valType="num"/>
+      <Param name="nReps" updates="None" val="num_trials" valType="code"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>

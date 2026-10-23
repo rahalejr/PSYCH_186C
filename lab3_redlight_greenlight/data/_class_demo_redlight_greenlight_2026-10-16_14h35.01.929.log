@@ -1,0 +1,53 @@
+10.4358 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+10.5929 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x17167a8f0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x17167a950>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1716e92d0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.5929 	EXP 	window1: backgroundImage = ''
+10.5929 	EXP 	window1: backgroundFit = 'none'
+10.8199 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.8199 	EXP 	window1: recordFrameIntervals = False
+11.0202 	EXP 	window1: recordFrameIntervals = True
+12.6869 	EXP 	window1: recordFrameIntervals = False
+12.6871 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+13.4296 	EXP 	class_demo_redlight_greenlight: status = STARTED
+13.4721 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.4993 	EXP 	Created doll_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='doll_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+0.0375 	EXP 	instr_text: autoDraw = True
+15.5530 	DATA 	Keypress: space
+15.5660 	EXP 	Device response: <KeyPress from None: t=15.546151042042766, value=space, duration=None>
+15.5664 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+15.6303 	EXP 	Device response: <KeyPress from None: t=15.546151042042766, value=space, duration=0.07782891596434638>
+15.6542 	EXP 	instr_text: autoDraw = False
+15.6542 	EXP 	doll_image: image = 'resources/squid_game_doll_backward.png'
+15.6542 	EXP 	doll_image: autoDraw = True
+16.4541 	EXP 	doll_image: autoDraw = False
+16.5709 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+16.6372 	EXP 	doll_image: autoDraw = False
+16.6372 	EXP 	doll_image: image = 'resources/squid_game_doll_backward.png'
+16.6372 	EXP 	doll_image: autoDraw = True
+17.4375 	EXP 	doll_image: autoDraw = False
+17.5709 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+17.6372 	EXP 	doll_image: autoDraw = False
+17.6372 	EXP 	doll_image: image = 'resources/squid_game_doll_backward.png'
+17.6372 	EXP 	doll_image: autoDraw = True
+18.4374 	EXP 	doll_image: autoDraw = False
+18.5701 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+18.6372 	EXP 	doll_image: autoDraw = False
+18.6372 	EXP 	doll_image: image = 'resources/squid_game_doll_backward.png'
+18.6372 	EXP 	doll_image: autoDraw = True
+19.4375 	EXP 	doll_image: autoDraw = False
+19.5709 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+19.6540 	EXP 	doll_image: autoDraw = False
+19.6540 	EXP 	doll_image: image = 'resources/squid_game_doll_forward.png'
+19.6540 	EXP 	doll_image: autoDraw = True
+20.4542 	EXP 	doll_image: autoDraw = False
+20.5708 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+20.6373 	EXP 	doll_image: autoDraw = False
+20.6373 	EXP 	doll_image: image = 'resources/squid_game_doll_backward.png'
+20.6373 	EXP 	doll_image: autoDraw = True
+21.4375 	EXP 	doll_image: autoDraw = False
+21.5709 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+21.6373 	EXP 	doll_image: autoDraw = False
+21.6373 	EXP 	doll_image: image = 'resources/squid_game_doll_forward.png'
+21.6373 	EXP 	doll_image: autoDraw = True
+22.4375 	EXP 	doll_image: autoDraw = False
+22.5874 	EXP 	doll_image: autoDraw = False
+22.5874 	EXP 	class_demo_redlight_greenlight: status = STOPPED

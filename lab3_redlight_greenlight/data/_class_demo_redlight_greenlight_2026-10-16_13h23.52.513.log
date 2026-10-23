@@ -1,0 +1,422 @@
+5.8831 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1512, 982]. Using actual size
+6.1176 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x17541cc40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x17541cca0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1754c2b90>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.1176 	EXP 	window1: backgroundImage = ''
+6.1176 	EXP 	window1: backgroundFit = 'none'
+6.3402 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3402 	EXP 	window1: recordFrameIntervals = False
+6.5281 	EXP 	window1: recordFrameIntervals = True
+6.5658 	WARNING 	t of last frame was 21.17ms (=1/47)
+7.3741 	EXP 	window1: recordFrameIntervals = False
+7.3744 	EXP 	Screen (0) actual frame rate measured at 119.81Hz
+8.1784 	EXP 	class_demo_redlight_greenlight: status = STARTED
+8.2286 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2609 	EXP 	Created doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.35, 0.5 ]), texRes=128.0, units='height', win=Window(...))
+8.2614 	EXP 	Created fb_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fb_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0203 	EXP 	instr_text: autoDraw = True
+5.0526 	EXP 	Device response: <KeyPress from None: t=5.038768250029534, value=space, duration=None>
+5.0534 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+5.0534 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+5.1212 	DATA 	Keypress: space
+5.1265 	EXP 	instr_text: autoDraw = False
+5.1265 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+5.1265 	EXP 	doll_im: autoDraw = True
+5.1419 	EXP 	Device response: <KeyPress from None: t=5.038768250029534, value=space, duration=0.10033170797396451>
+6.1249 	EXP 	doll_im: autoDraw = False
+6.2582 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+6.2583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+6.3252 	EXP 	doll_im: autoDraw = False
+6.3252 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+6.3252 	EXP 	doll_im: autoDraw = True
+7.3162 	EXP 	doll_im: autoDraw = False
+7.3674 	DATA 	Keypress: space
+7.3700 	EXP 	Device response: <KeyPress from None: t=7.3597527500241995, value=space, duration=None>
+7.4340 	EXP 	Device response: <KeyPress from None: t=7.3597527500241995, value=space, duration=0.07242329197470099>
+7.4581 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+7.4582 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+7.5244 	EXP 	doll_im: autoDraw = False
+7.5244 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+7.5244 	EXP 	doll_im: autoDraw = True
+8.1002 	EXP 	Device response: <KeyPress from None: t=8.099730457994156, value=space, duration=None>
+8.1036 	DATA 	Keypress: space
+8.1752 	EXP 	Device response: <KeyPress from None: t=8.099730457994156, value=space, duration=0.0727381250471808>
+8.5166 	EXP 	doll_im: autoDraw = False
+8.6583 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+8.6584 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+8.7165 	EXP 	doll_im: autoDraw = False
+8.7165 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+8.7165 	EXP 	doll_im: autoDraw = True
+9.0387 	DATA 	Keypress: space
+9.0420 	EXP 	Device response: <KeyPress from None: t=9.035697083047125, value=space, duration=None>
+9.1083 	EXP 	Device response: <KeyPress from None: t=9.035697083047125, value=space, duration=0.07232133398065343>
+9.7082 	EXP 	doll_im: autoDraw = False
+9.8584 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+9.8584 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+9.9420 	EXP 	doll_im: autoDraw = False
+9.9420 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+9.9420 	EXP 	doll_im: autoDraw = True
+10.9331 	EXP 	doll_im: autoDraw = False
+11.0583 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+11.0584 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+11.1251 	EXP 	doll_im: autoDraw = False
+11.1251 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+11.1251 	EXP 	doll_im: autoDraw = True
+11.4637 	DATA 	Keypress: space
+11.4670 	EXP 	Device response: <KeyPress from None: t=11.460657292045653, value=space, duration=None>
+11.5249 	EXP 	Device response: <KeyPress from None: t=11.460657292045653, value=space, duration=0.06030845799250528>
+11.5918 	EXP 	Device response: <KeyPress from None: t=11.590744458022527, value=space, duration=None>
+11.5945 	DATA 	Keypress: space
+11.6668 	EXP 	Device response: <KeyPress from None: t=11.590744458022527, value=space, duration=0.07221833401126787>
+11.7303 	DATA 	Keypress: space
+11.7334 	EXP 	Device response: <KeyPress from None: t=11.727644708007574, value=space, duration=None>
+11.7833 	EXP 	Device response: <KeyPress from None: t=11.727644708007574, value=space, duration=0.0522985840216279>
+11.7965 	DATA 	Keypress: space
+11.8001 	EXP 	Device response: <KeyPress from None: t=11.794628917006776, value=space, duration=None>
+11.8584 	EXP 	Device response: <KeyPress from None: t=11.794628917006776, value=space, duration=0.0563264160300605>
+11.9367 	DATA 	Keypress: space
+11.9417 	EXP 	Device response: <KeyPress from None: t=11.933624125027563, value=space, duration=None>
+11.9752 	EXP 	Device response: <KeyPress from None: t=11.933624125027563, value=space, duration=0.03635612496873364>
+12.0472 	DATA 	Keypress: space
+12.0500 	EXP 	Device response: <KeyPress from None: t=12.04463866702281, value=space, duration=None>
+12.1001 	EXP 	Device response: <KeyPress from None: t=12.04463866702281, value=space, duration=0.05230333301005885>
+12.1165 	EXP 	doll_im: autoDraw = False
+12.1552 	DATA 	Keypress: space
+12.1584 	EXP 	Device response: <KeyPress from None: t=12.152622583031189, value=space, duration=None>
+12.2084 	EXP 	Device response: <KeyPress from None: t=12.152622583031189, value=space, duration=0.04836941696703434>
+12.2537 	DATA 	Keypress: space
+12.2583 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+12.2584 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+12.3108 	EXP 	Device response: <KeyPress from None: t=12.25081425003009, value=space, duration=None>
+12.3109 	EXP 	Device response: <KeyPress from None: t=12.25081425003009, value=space, duration=0.05213812500005588>
+12.3246 	EXP 	doll_im: autoDraw = False
+12.3246 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+12.3246 	EXP 	doll_im: autoDraw = True
+12.3833 	EXP 	Device response: <KeyPress from None: t=12.37925462500425, value=space, duration=None>
+12.3839 	DATA 	Keypress: space
+12.4583 	EXP 	Device response: <KeyPress from None: t=12.37925462500425, value=space, duration=0.07569033303298056>
+12.4999 	EXP 	Device response: <KeyPress from None: t=12.499618166999426, value=space, duration=None>
+12.5030 	DATA 	Keypress: space
+12.5668 	EXP 	Device response: <KeyPress from None: t=12.499618166999426, value=space, duration=0.06433966604527086>
+12.6167 	EXP 	Device response: <KeyPress from None: t=12.615709875011817, value=space, duration=None>
+12.6198 	DATA 	Keypress: space
+12.6833 	EXP 	Device response: <KeyPress from None: t=12.615709875011817, value=space, duration=0.06421887502074242>
+12.7458 	DATA 	Keypress: space
+12.7501 	EXP 	Device response: <KeyPress from None: t=12.743612167018, value=space, duration=None>
+12.8083 	EXP 	Device response: <KeyPress from None: t=12.743612167018, value=space, duration=0.05632883298676461>
+12.8750 	EXP 	Device response: <KeyPress from None: t=12.87371641700156, value=space, duration=None>
+12.8787 	DATA 	Keypress: space
+12.9251 	EXP 	Device response: <KeyPress from None: t=12.87371641700156, value=space, duration=0.048207375046331435>
+12.9917 	EXP 	Device response: <KeyPress from None: t=12.988586042018142, value=space, duration=None>
+12.9922 	DATA 	Keypress: space
+13.0663 	EXP 	Device response: <KeyPress from None: t=12.988586042018142, value=space, duration=0.0763499159947969>
+13.1224 	DATA 	Keypress: space
+13.1251 	EXP 	Device response: <KeyPress from None: t=13.119613167014904, value=space, duration=None>
+13.1919 	EXP 	Device response: <KeyPress from None: t=13.119613167014904, value=space, duration=0.06830870802514255>
+13.2584 	EXP 	Device response: <KeyPress from None: t=13.257629542029463, value=space, duration=None>
+13.2612 	DATA 	Keypress: space
+13.3085 	EXP 	Device response: <KeyPress from None: t=13.257629542029463, value=space, duration=0.04829925001831725>
+13.3165 	EXP 	doll_im: autoDraw = False
+13.3749 	EXP 	Device response: <KeyPress from None: t=13.37061987502966, value=space, duration=None>
+13.3754 	DATA 	Keypress: space
+13.4415 	EXP 	Device response: <KeyPress from None: t=13.37061987502966, value=space, duration=0.06431024998892099>
+13.4583 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+13.4584 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+13.5102 	EXP 	Device response: <KeyPress from None: t=13.49060245801229, value=space, duration=None>
+13.5112 	DATA 	Keypress: space
+13.5251 	EXP 	doll_im: autoDraw = False
+13.5251 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+13.5251 	EXP 	doll_im: autoDraw = True
+13.5502 	EXP 	Device response: <KeyPress from None: t=13.49060245801229, value=space, duration=0.05231279198778793>
+13.6053 	DATA 	Keypress: space
+13.6084 	EXP 	Device response: <KeyPress from None: t=13.603584917029366, value=space, duration=None>
+13.6917 	EXP 	Device response: <KeyPress from None: t=13.603584917029366, value=space, duration=0.08031070797005668>
+13.7417 	EXP 	Device response: <KeyPress from None: t=13.740682500007097, value=space, duration=None>
+13.7447 	DATA 	Keypress: space
+13.8084 	EXP 	Device response: <KeyPress from None: t=13.740682500007097, value=space, duration=0.060221416992135346>
+13.8750 	EXP 	Device response: <KeyPress from None: t=13.871602625004016, value=space, duration=None>
+13.8755 	DATA 	Keypress: space
+13.9248 	EXP 	Device response: <KeyPress from None: t=13.871602625004016, value=space, duration=0.049171124992426485>
+13.9834 	EXP 	Device response: <KeyPress from None: t=13.979600750026293, value=space, duration=None>
+13.9839 	DATA 	Keypress: space
+14.0585 	EXP 	Device response: <KeyPress from None: t=13.979600750026293, value=space, duration=0.07631741696968675>
+14.1083 	EXP 	Device response: <KeyPress from None: t=14.106634750030935, value=space, duration=None>
+14.1111 	DATA 	Keypress: space
+14.1834 	EXP 	Device response: <KeyPress from None: t=14.106634750030935, value=space, duration=0.06826620799256489>
+14.2472 	DATA 	Keypress: space
+14.2500 	EXP 	Device response: <KeyPress from None: t=14.24459175002994, value=space, duration=None>
+14.3083 	EXP 	Device response: <KeyPress from None: t=14.24459175002994, value=space, duration=0.060419042012654245>
+14.3782 	DATA 	Keypress: space
+14.3834 	EXP 	Device response: <KeyPress from None: t=14.375579750048928, value=space, duration=None>
+14.4417 	EXP 	Device response: <KeyPress from None: t=14.375579750048928, value=space, duration=0.06443287496222183>
+14.5053 	DATA 	Keypress: space
+14.5084 	EXP 	Device response: <KeyPress from None: t=14.502576583006885, value=space, duration=None>
+14.5165 	EXP 	doll_im: autoDraw = False
+14.5666 	EXP 	Device response: <KeyPress from None: t=14.502576583006885, value=space, duration=0.060403292009141296>
+14.6335 	EXP 	Device response: <KeyPress from None: t=14.62958454200998, value=space, duration=None>
+14.6339 	DATA 	Keypress: space
+14.6583 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+14.6583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+14.7037 	EXP 	Device response: <KeyPress from None: t=14.62958454200998, value=space, duration=0.06431512499693781>
+14.7168 	EXP 	doll_im: autoDraw = False
+14.7168 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+14.7168 	EXP 	doll_im: autoDraw = True
+14.7668 	EXP 	Device response: <KeyPress from None: t=14.763586292043328, value=space, duration=None>
+14.7674 	DATA 	Keypress: space
+14.8334 	EXP 	Device response: <KeyPress from None: t=14.763586292043328, value=space, duration=0.06430958298733458>
+14.8977 	DATA 	Keypress: space
+14.9003 	EXP 	Device response: <KeyPress from None: t=14.894572958000936, value=space, duration=None>
+14.9584 	EXP 	Device response: <KeyPress from None: t=14.894572958000936, value=space, duration=0.05629733402747661>
+15.0333 	EXP 	Device response: <KeyPress from None: t=15.032672042027116, value=space, duration=None>
+15.0366 	DATA 	Keypress: space
+15.1002 	EXP 	Device response: <KeyPress from None: t=15.032672042027116, value=space, duration=0.06420766597148031>
+15.1620 	DATA 	Keypress: space
+15.1667 	EXP 	Device response: <KeyPress from None: t=15.158563500037417, value=space, duration=None>
+15.2334 	EXP 	Device response: <KeyPress from None: t=15.158563500037417, value=space, duration=0.07231324998429045>
+15.3002 	EXP 	Device response: <KeyPress from None: t=15.298628667020239, value=space, duration=None>
+15.3032 	DATA 	Keypress: space
+15.3667 	EXP 	Device response: <KeyPress from None: t=15.298628667020239, value=space, duration=0.06024029100080952>
+15.4250 	EXP 	Device response: <KeyPress from None: t=15.422561542014591, value=space, duration=None>
+15.4259 	DATA 	Keypress: space
+15.5002 	EXP 	Device response: <KeyPress from None: t=15.422561542014591, value=space, duration=0.07230850000632927>
+15.5621 	DATA 	Keypress: space
+15.5668 	EXP 	Device response: <KeyPress from None: t=15.5595536250039, value=space, duration=None>
+15.6167 	EXP 	Device response: <KeyPress from None: t=15.5595536250039, value=space, duration=0.05642558302497491>
+15.6834 	EXP 	Device response: <KeyPress from None: t=15.682645625027362, value=space, duration=None>
+15.6872 	DATA 	Keypress: space
+15.7082 	EXP 	doll_im: autoDraw = False
+15.7583 	EXP 	Device response: <KeyPress from None: t=15.682645625027362, value=space, duration=0.06851012498373166>
+15.8250 	EXP 	Device response: <KeyPress from None: t=15.824648667010479, value=space, duration=None>
+15.8283 	DATA 	Keypress: space
+15.8583 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+15.8583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+15.9030 	EXP 	Device response: <KeyPress from None: t=15.824648667010479, value=space, duration=0.06823004101170227>
+15.9169 	EXP 	doll_im: autoDraw = False
+15.9169 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+15.9169 	EXP 	doll_im: autoDraw = True
+15.9666 	EXP 	Device response: <KeyPress from None: t=15.964560167049058, value=space, duration=None>
+15.9695 	DATA 	Keypress: space
+16.0250 	EXP 	Device response: <KeyPress from None: t=15.964560167049058, value=space, duration=0.052315999986603856>
+16.0917 	EXP 	Device response: <KeyPress from None: t=16.088541458011605, value=space, duration=None>
+16.0922 	DATA 	Keypress: space
+16.1332 	EXP 	Device response: <KeyPress from None: t=16.088541458011605, value=space, duration=0.04435337503673509>
+16.2205 	DATA 	Keypress: space
+16.2251 	EXP 	Device response: <KeyPress from None: t=16.21753687504679, value=space, duration=None>
+16.2916 	EXP 	Device response: <KeyPress from None: t=16.21753687504679, value=space, duration=0.07243324996670708>
+16.3641 	DATA 	Keypress: space
+16.3668 	EXP 	Device response: <KeyPress from None: t=16.361514749994967, value=space, duration=None>
+16.4000 	EXP 	Device response: <KeyPress from None: t=16.361514749994967, value=space, duration=0.03236150002339855>
+16.4583 	EXP 	Device response: <KeyPress from None: t=16.45554550003726, value=space, duration=None>
+16.4589 	DATA 	Keypress: space
+16.5083 	EXP 	Device response: <KeyPress from None: t=16.45554550003726, value=space, duration=0.04832233296474442>
+16.5779 	DATA 	Keypress: space
+16.5834 	EXP 	Device response: <KeyPress from None: t=16.575530125002842, value=space, duration=None>
+16.6498 	EXP 	Device response: <KeyPress from None: t=16.575530125002842, value=space, duration=0.0723422919982113>
+16.7168 	EXP 	Device response: <KeyPress from None: t=16.71563916699961, value=space, duration=None>
+16.7198 	DATA 	Keypress: space
+16.8083 	EXP 	Device response: <KeyPress from None: t=16.71563916699961, value=space, duration=0.08822229102952406>
+16.8666 	EXP 	Device response: <KeyPress from None: t=16.862541167007294, value=space, duration=None>
+16.8671 	DATA 	Keypress: space
+16.9082 	EXP 	doll_im: autoDraw = False
+16.9083 	EXP 	Device response: <KeyPress from None: t=16.862541167007294, value=space, duration=0.040298791020177305>
+16.9667 	EXP 	Device response: <KeyPress from None: t=16.963535749993753, value=space, duration=None>
+16.9671 	DATA 	Keypress: space
+17.0500 	EXP 	Device response: <KeyPress from None: t=16.963535749993753, value=space, duration=0.08030837500700727>
+17.0583 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+17.0584 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+17.1252 	EXP 	doll_im: autoDraw = False
+17.1252 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+17.1252 	EXP 	doll_im: autoDraw = True
+17.1287 	DATA 	Keypress: space
+17.2669 	EXP 	Device response: <KeyPress from None: t=17.265634208044503, value=space, duration=None>
+17.2698 	DATA 	Keypress: space
+17.3085 	EXP 	Device response: <KeyPress from None: t=17.265634208044503, value=space, duration=0.04021999996621162>
+18.1165 	EXP 	doll_im: autoDraw = False
+18.2583 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+18.2583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+18.3252 	EXP 	doll_im: autoDraw = False
+18.3252 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+18.3252 	EXP 	doll_im: autoDraw = True
+18.6369 	DATA 	Keypress: space
+18.6418 	EXP 	Device response: <KeyPress from None: t=18.633504750032444, value=space, duration=None>
+18.6751 	EXP 	Device response: <KeyPress from None: t=18.633504750032444, value=space, duration=0.03631641698302701>
+18.7415 	EXP 	Device response: <KeyPress from None: t=18.73846266703913, value=space, duration=None>
+18.7420 	DATA 	Keypress: space
+18.8086 	EXP 	Device response: <KeyPress from None: t=18.73846266703913, value=space, duration=0.06838604097720236>
+18.8788 	DATA 	Keypress: space
+18.8835 	EXP 	Device response: <KeyPress from None: t=18.87548141699517, value=space, duration=None>
+18.9334 	EXP 	Device response: <KeyPress from None: t=18.87548141699517, value=space, duration=0.05644595803460106>
+19.0084 	EXP 	Device response: <KeyPress from None: t=19.004499250033405, value=space, duration=None>
+19.0088 	DATA 	Keypress: space
+19.0668 	EXP 	Device response: <KeyPress from None: t=19.004499250033405, value=space, duration=0.060329833009745926>
+19.1418 	EXP 	Device response: <KeyPress from None: t=19.140603458043188, value=space, duration=None>
+19.1446 	DATA 	Keypress: space
+19.2001 	EXP 	Device response: <KeyPress from None: t=19.140603458043188, value=space, duration=0.05220849998295307>
+19.2585 	EXP 	Device response: <KeyPress from None: t=19.256536542030517, value=space, duration=None>
+19.2614 	DATA 	Keypress: space
+19.3166 	EXP 	doll_im: autoDraw = False
+19.3251 	EXP 	Device response: <KeyPress from None: t=19.256536542030517, value=space, duration=0.06828449998283759>
+19.3835 	EXP 	Device response: <KeyPress from None: t=19.382584875042085, value=space, duration=None>
+19.3859 	DATA 	Keypress: space
+19.4501 	EXP 	Device response: <KeyPress from None: t=19.382584875042085, value=space, duration=0.06040399998892099>
+19.4584 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+19.4585 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+19.5154 	DATA 	Keypress: space
+19.5243 	EXP 	doll_im: autoDraw = False
+19.5243 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+19.5243 	EXP 	doll_im: autoDraw = True
+19.6419 	EXP 	Device response: <KeyPress from None: t=19.640579292026814, value=space, duration=None>
+19.6449 	DATA 	Keypress: space
+19.7417 	EXP 	Device response: <KeyPress from None: t=19.640579292026814, value=space, duration=0.0962188330013305>
+20.5165 	EXP 	doll_im: autoDraw = False
+20.6583 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+20.6583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+20.7099 	EXP 	Device response: <KeyPress from None: t=20.670463167014532, value=space, duration=None>
+20.7109 	DATA 	Keypress: space
+20.7249 	EXP 	doll_im: autoDraw = False
+20.7249 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+20.7249 	EXP 	doll_im: autoDraw = True
+20.8002 	EXP 	Device response: <KeyPress from None: t=20.795458125008736, value=space, duration=None>
+20.8007 	DATA 	Keypress: space
+20.8751 	EXP 	Device response: <KeyPress from None: t=20.670463167014532, value=space, duration=0.19732224999461323>
+20.9481 	DATA 	Keypress: space
+20.9505 	EXP 	Device response: <KeyPress from None: t=20.94544833304826, value=space, duration=None>
+20.9835 	EXP 	Device response: <KeyPress from None: t=20.795458125008736, value=space, duration=0.1823144580121152>
+21.0699 	DATA 	Keypress: space
+21.0752 	EXP 	Device response: <KeyPress from None: t=21.0664302080404, value=space, duration=None>
+21.1166 	EXP 	Device response: <KeyPress from None: t=20.94544833304826, value=space, duration=0.16943558398634195>
+21.1999 	EXP 	Device response: <KeyPress from None: t=21.19954070803942, value=space, duration=None>
+21.2029 	DATA 	Keypress: space
+21.2417 	EXP 	Device response: <KeyPress from None: t=21.0664302080404, value=space, duration=0.1734095420106314>
+21.3334 	EXP 	Device response: <KeyPress from None: t=21.33043162501417, value=space, duration=None>
+21.3341 	DATA 	Keypress: space
+21.3835 	EXP 	Device response: <KeyPress from None: t=21.19954070803942, value=space, duration=0.17922016698867083>
+21.4583 	EXP 	Device response: <KeyPress from None: t=21.457518000039272, value=space, duration=None>
+21.4611 	DATA 	Keypress: space
+21.5249 	EXP 	Device response: <KeyPress from None: t=21.33043162501417, value=space, duration=0.19132737501058728>
+21.5999 	EXP 	Device response: <KeyPress from None: t=21.599527333048172, value=space, duration=None>
+21.6032 	DATA 	Keypress: space
+21.6499 	EXP 	Device response: <KeyPress from None: t=21.457518000039272, value=space, duration=0.19023920799372718>
+21.7164 	EXP 	doll_im: autoDraw = False
+21.7249 	EXP 	Device response: <KeyPress from None: t=21.72141229204135, value=space, duration=None>
+21.7253 	DATA 	Keypress: space
+21.7751 	EXP 	Device response: <KeyPress from None: t=21.599527333048172, value=space, duration=0.17022570897825062>
+21.8583 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+21.8584 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+21.9037 	EXP 	Device response: <KeyPress from None: t=21.855438708036672, value=space, duration=None>
+21.9047 	DATA 	Keypress: space
+21.9169 	EXP 	doll_im: autoDraw = False
+21.9169 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+21.9169 	EXP 	doll_im: autoDraw = True
+22.3917 	EXP 	Device response: <KeyPress from None: t=22.388417750014924, value=space, duration=None>
+22.3922 	DATA 	Keypress: space
+22.4418 	EXP 	Device response: <KeyPress from None: t=21.72141229204135, value=space, duration=0.7193966250051744>
+22.5165 	EXP 	Device response: <KeyPress from None: t=22.5124249579967, value=space, duration=None>
+22.5170 	DATA 	Keypress: space
+22.5668 	EXP 	Device response: <KeyPress from None: t=21.855438708036672, value=space, duration=0.7052921249996871>
+22.6251 	EXP 	Device response: <KeyPress from None: t=22.623496667016298, value=space, duration=None>
+22.6278 	DATA 	Keypress: space
+22.6917 	EXP 	Device response: <KeyPress from None: t=22.388417750014924, value=space, duration=0.2992890829918906>
+22.9081 	EXP 	doll_im: autoDraw = False
+23.0582 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+23.0583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+23.1164 	EXP 	doll_im: autoDraw = False
+23.1164 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+23.1164 	EXP 	doll_im: autoDraw = True
+23.4335 	EXP 	Device response: <KeyPress from None: t=23.429405875038356, value=space, duration=None>
+23.4342 	DATA 	Keypress: space
+23.4752 	EXP 	Device response: <KeyPress from None: t=22.5124249579967, value=space, duration=0.961380916996859>
+23.6713 	DATA 	Keypress: space
+23.6754 	EXP 	Device response: <KeyPress from None: t=23.667395458032843, value=space, duration=None>
+23.7416 	EXP 	Device response: <KeyPress from None: t=22.623496667016298, value=space, duration=1.1162903750082478>
+23.7970 	DATA 	Keypress: space
+23.8001 	EXP 	Device response: <KeyPress from None: t=23.794395917037036, value=space, duration=None>
+23.8667 	EXP 	Device response: <KeyPress from None: t=23.429405875038356, value=space, duration=0.429268374980893>
+23.9286 	DATA 	Keypress: space
+23.9334 	EXP 	Device response: <KeyPress from None: t=23.926396917027887, value=space, duration=None>
+23.9999 	EXP 	Device response: <KeyPress from None: t=23.667395458032843, value=space, duration=0.3273117920034565>
+24.0531 	DATA 	Keypress: space
+24.0583 	EXP 	Device response: <KeyPress from None: t=24.051369292021263, value=space, duration=None>
+24.1083 	EXP 	doll_im: autoDraw = False
+24.1169 	EXP 	Device response: <KeyPress from None: t=23.794395917037036, value=space, duration=0.32141508295899257>
+24.2583 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+24.2584 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+24.3253 	EXP 	doll_im: autoDraw = False
+24.3253 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+24.3253 	EXP 	doll_im: autoDraw = True
+25.3166 	EXP 	doll_im: autoDraw = False
+25.4582 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+25.4583 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+25.5164 	EXP 	doll_im: autoDraw = False
+25.5164 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+25.5164 	EXP 	doll_im: autoDraw = True
+25.6133 	DATA 	Keypress: space
+25.6168 	EXP 	Device response: <KeyPress from None: t=25.610358333040494, value=space, duration=None>
+25.6665 	EXP 	Device response: <KeyPress from None: t=23.926396917027887, value=space, duration=1.7322546659852378>
+25.7501 	EXP 	Device response: <KeyPress from None: t=25.748401916993316, value=space, duration=None>
+25.7531 	DATA 	Keypress: space
+25.7750 	EXP 	Device response: <KeyPress from None: t=24.051369292021263, value=space, duration=1.7213010410196148>
+25.8634 	DATA 	Keypress: space
+25.8667 	EXP 	Device response: <KeyPress from None: t=25.861345792014617, value=space, duration=None>
+25.9168 	EXP 	Device response: <KeyPress from None: t=25.610358333040494, value=space, duration=0.3033031669910997>
+26.5082 	EXP 	doll_im: autoDraw = False
+26.6583 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+26.6583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+26.7244 	EXP 	doll_im: autoDraw = False
+26.7244 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+26.7244 	EXP 	doll_im: autoDraw = True
+26.8635 	DATA 	Keypress: space
+26.8669 	EXP 	Device response: <KeyPress from None: t=26.860339375038166, value=space, duration=None>
+26.9332 	EXP 	Device response: <KeyPress from None: t=25.748401916993316, value=space, duration=1.1843382080551237>
+26.9951 	DATA 	Keypress: space
+27.0000 	EXP 	Device response: <KeyPress from None: t=26.99231087503722, value=space, duration=None>
+27.0585 	EXP 	Device response: <KeyPress from None: t=25.861345792014617, value=space, duration=1.191297499986831>
+27.1299 	DATA 	Keypress: space
+27.1334 	EXP 	Device response: <KeyPress from None: t=27.127318792045116, value=space, duration=None>
+27.1915 	EXP 	Device response: <KeyPress from None: t=26.860339375038166, value=space, duration=0.3272996249725111>
+27.2549 	DATA 	Keypress: space
+27.2583 	EXP 	Device response: <KeyPress from None: t=27.252318167011254, value=space, duration=None>
+27.3084 	EXP 	Device response: <KeyPress from None: t=26.99231087503722, value=space, duration=0.3124367499840446>
+27.3790 	DATA 	Keypress: space
+27.3834 	EXP 	Device response: <KeyPress from None: t=27.37628325005062, value=space, duration=None>
+27.4583 	EXP 	Device response: <KeyPress from None: t=27.127318792045116, value=space, duration=0.3293779160012491>
+27.5131 	DATA 	Keypress: space
+27.5167 	EXP 	Device response: <KeyPress from None: t=27.51033208303852, value=space, duration=None>
+27.5750 	EXP 	Device response: <KeyPress from None: t=27.252318167011254, value=space, duration=0.31441504100803286>
+27.7084 	EXP 	Device response: <KeyPress from None: t=27.705313292040955, value=space, duration=None>
+27.7089 	DATA 	Keypress: space
+27.7165 	EXP 	doll_im: autoDraw = False
+27.7667 	EXP 	Device response: <KeyPress from None: t=27.37628325005062, value=space, duration=0.385313207982108>
+27.8533 	DATA 	Keypress: space
+27.8582 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+27.8583 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+27.9034 	EXP 	Device response: <KeyPress from None: t=27.85030849999748, value=space, duration=None>
+27.9169 	EXP 	doll_im: autoDraw = False
+27.9169 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+27.9169 	EXP 	doll_im: autoDraw = True
+27.9251 	EXP 	Device response: <KeyPress from None: t=27.51033208303852, value=space, duration=0.4082864999654703>
+28.0132 	DATA 	Keypress: space
+28.0167 	EXP 	Device response: <KeyPress from None: t=28.010311250051018, value=space, duration=None>
+28.0583 	EXP 	Device response: <KeyPress from None: t=27.705313292040955, value=space, duration=0.34526716597611085>
+28.1298 	DATA 	Keypress: space
+28.1335 	EXP 	Device response: <KeyPress from None: t=28.12731116701616, value=space, duration=None>
+28.1667 	EXP 	Device response: <KeyPress from None: t=27.85030849999748, value=space, duration=0.3133244170458056>
+28.2460 	DATA 	Keypress: space
+28.2500 	EXP 	Device response: <KeyPress from None: t=28.24325962504372, value=space, duration=None>
+28.3334 	EXP 	Device response: <KeyPress from None: t=28.010311250051018, value=space, duration=0.3173164999461733>
+28.4138 	DATA 	Keypress: space
+28.4167 	EXP 	Device response: <KeyPress from None: t=28.411303875036538, value=space, duration=None>
+28.4417 	EXP 	Device response: <KeyPress from None: t=28.12731116701616, value=space, duration=0.3084454580093734>
+28.5228 	DATA 	Keypress: space
+28.5254 	EXP 	Device response: <KeyPress from None: t=28.520292000030167, value=space, duration=None>
+28.5917 	EXP 	Device response: <KeyPress from None: t=28.24325962504372, value=space, duration=0.3413488749647513>
+28.6615 	DATA 	Keypress: space
+28.6668 	EXP 	Device response: <KeyPress from None: t=28.658298499998637, value=space, duration=None>
+28.7001 	EXP 	Device response: <KeyPress from None: t=28.411303875036538, value=space, duration=0.2873968330095522>
+28.7916 	EXP 	Device response: <KeyPress from None: t=28.789003292040434, value=space, duration=None>
+28.7924 	DATA 	Keypress: space
+28.8501 	EXP 	Device response: <KeyPress from None: t=28.520292000030167, value=space, duration=0.324322291999124>
+28.9083 	EXP 	doll_im: autoDraw = False
+28.9168 	EXP 	Device response: <KeyPress from None: t=28.915378542034887, value=space, duration=None>
+28.9193 	DATA 	Keypress: space
+28.9668 	EXP 	Device response: <KeyPress from None: t=28.658298499998637, value=space, duration=0.3013148330501281>
+29.0369 	DATA 	Keypress: space
+29.0418 	EXP 	Device response: <KeyPress from None: t=29.03426795802079, value=space, duration=None>

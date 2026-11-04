@@ -1,0 +1,190 @@
+4.6915 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.6925 	INFO 	Loaded monitor calibration from ['2025_05_20 22:27']
+4.8673 	INFO 	Using renderer 'Apple M4' for graphics
+4.8673 	INFO 	OpenGL version supported by driver is 2..
+4.9216 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1713df4c0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x1713df460>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x17140d300>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.9216 	EXP 	window1: backgroundImage = ''
+4.9216 	EXP 	window1: backgroundFit = 'none'
+4.9376 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9453 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9531 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9612 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9692 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9770 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9850 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9930 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0007 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0084 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0164 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0243 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0322 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0401 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0480 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0560 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0639 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0717 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0794 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0875 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0954 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.0992 	DEBUG 	Upload of Texture Font fontname complete
+5.1099 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1179 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1259 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1260 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.1275 	DEBUG 	Upload of Texture Font fontname complete
+5.1283 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.1283 	EXP 	window1: recordFrameIntervals = False
+5.3196 	EXP 	window1: recordFrameIntervals = True
+6.9863 	EXP 	window1: recordFrameIntervals = False
+6.9864 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+6.9967 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0045 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0122 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0202 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0281 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0360 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0436 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0514 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0593 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0671 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0673 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.0690 	DEBUG 	Upload of Texture Font fontname complete
+7.8952 	INFO 	keyboard.Keyboard is using ptb backend.
+7.8952 	EXP 	redlight_greenlight_approach_class_demo: status = STARTED
+7.9383 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0755 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+8.1361 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Crestron
+8.1361 	DEBUG 	Found speaker device: Crestron (0.0)
+8.1627 	INFO 	Created stream for speaker device: Crestron (0.0)
+8.3007 	EXP 	: sampleRate = 48000
+8.3008 	EXP 	: channels = None
+8.3028 	EXP 	: sampleRate = 48000
+8.3733 	EXP 	Created doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+8.3740 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([ 0.7255, -0.8431, -0.5294]), fillColorSpace='rgb', fillRGB=array([ 0.7255, -0.8431, -0.5294]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([3., 3.]), units='height', vertices=ndarray(...), win=Window(...))
+8.4154 	EXP 	Created angry_doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='resources/squid_game_doll_angry.png', interpolate=True, mask=None, maskParams=None, name='angry_doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+0.0370 	INFO 	Keyboard events cleared
+0.0369 	EXP 	instr_text: autoDraw = True
+0.8239 	DATA 	Keypress: space
+0.8352 	EXP 	Device response: <KeyPress from None: t=0.8166050829458982, value=space, duration=None>
+0.8365 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.8367 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+0.8908 	EXP 	Device response: <KeyPress from None: t=0.8166050829458982, value=space, duration=0.04178616707213223>
+0.9208 	INFO 	Keyboard events cleared
+0.9208 	EXP 	instr_text: autoDraw = False
+0.9208 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+0.9208 	EXP 	doll_im: autoDraw = True
+1.2209 	EXP 	doll_im: autoDraw = False
+1.2883 	EXP 	Device response: <KeyPress from None: t=1.2860699580051005, value=space, duration=None>
+1.2924 	DATA 	Keypress: space
+1.3383 	EXP 	Device response: <KeyPress from None: t=1.2860699580051005, value=space, duration=0.04832058399915695>
+1.4382 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+1.4383 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+1.5208 	INFO 	Keyboard events cleared
+1.5208 	EXP 	doll_im: autoDraw = False
+1.5208 	EXP 	polygon: autoDraw = False
+1.5208 	EXP 	angry_doll_im: autoDraw = False
+1.5208 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+1.5208 	EXP 	doll_im: autoDraw = True
+1.8208 	EXP 	doll_im: autoDraw = False
+1.8486 	DATA 	Keypress: space
+1.8552 	EXP 	Device response: <KeyPress from None: t=1.8460612499620765, value=space, duration=None>
+1.9214 	EXP 	Device response: <KeyPress from None: t=1.8460612499620765, value=space, duration=0.0643084580078721>
+2.0201 	DATA 	Keypress: space
+2.0219 	EXP 	Device response: <KeyPress from None: t=2.0180649999529123, value=space, duration=None>
+2.0549 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+2.0550 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+2.1197 	EXP 	Device response: <KeyPress from None: t=2.0180649999529123, value=space, duration=0.05230029206722975>
+2.1376 	INFO 	Keyboard events cleared
+2.1376 	EXP 	doll_im: autoDraw = False
+2.1376 	EXP 	polygon: autoDraw = False
+2.1376 	EXP 	angry_doll_im: autoDraw = False
+2.1376 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+2.1376 	EXP 	doll_im: autoDraw = True
+2.2078 	DATA 	Keypress: space
+2.2217 	EXP 	Device response: <KeyPress from None: t=2.2050624169642106, value=space, duration=None>
+2.2718 	EXP 	Device response: <KeyPress from None: t=2.2050624169642106, value=space, duration=0.05230620806105435>
+2.4375 	EXP 	doll_im: autoDraw = False
+2.6870 	EXP 	doll_im: autoDraw = False
+2.6870 	EXP 	polygon: autoDraw = True
+2.6870 	EXP 	angry_doll_im: autoDraw = True
+5.6712 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+5.6714 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+5.7375 	INFO 	Keyboard events cleared
+5.7374 	EXP 	polygon: autoDraw = False
+5.7374 	EXP 	angry_doll_im: autoDraw = False
+5.7374 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+5.7374 	EXP 	doll_im: autoDraw = True
+6.0375 	EXP 	doll_im: autoDraw = False
+6.2714 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+6.2715 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+6.3374 	INFO 	Keyboard events cleared
+6.3374 	EXP 	doll_im: autoDraw = False
+6.3374 	EXP 	polygon: autoDraw = False
+6.3374 	EXP 	angry_doll_im: autoDraw = False
+6.3374 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+6.3374 	EXP 	doll_im: autoDraw = True
+6.6375 	EXP 	doll_im: autoDraw = False
+6.8881 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+6.8882 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+6.9541 	INFO 	Keyboard events cleared
+6.9540 	EXP 	doll_im: autoDraw = False
+6.9540 	EXP 	polygon: autoDraw = False
+6.9540 	EXP 	angry_doll_im: autoDraw = False
+6.9540 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+6.9540 	EXP 	doll_im: autoDraw = True
+7.0215 	EXP 	Device response: <KeyPress from None: t=7.020943167037331, value=lcommand, duration=None>
+7.0235 	DATA 	Keypress: lcommand
+7.2541 	EXP 	doll_im: autoDraw = False
+7.2669 	DATA 	Keypress: loption
+7.2717 	EXP 	Device response: <KeyPress from None: t=7.264948041993193, value=loption, duration=None>
+7.5047 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+7.5048 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+7.5707 	INFO 	Keyboard events cleared
+7.5707 	EXP 	doll_im: autoDraw = False
+7.5707 	EXP 	polygon: autoDraw = False
+7.5707 	EXP 	angry_doll_im: autoDraw = False
+7.5707 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+7.5707 	EXP 	doll_im: autoDraw = True
+7.6718 	EXP 	Device response: <KeyPress from None: t=7.020943167037331, value=lcommand, duration=0.6359916249057278>
+7.7217 	EXP 	Device response: <KeyPress from None: t=7.264948041993193, value=loption, duration=0.4523244999581948>
+7.8708 	EXP 	doll_im: autoDraw = False
+8.1049 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+8.1050 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+8.1708 	INFO 	Keyboard events cleared
+8.1708 	EXP 	doll_im: autoDraw = False
+8.1708 	EXP 	polygon: autoDraw = False
+8.1708 	EXP 	angry_doll_im: autoDraw = False
+8.1708 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+8.1708 	EXP 	doll_im: autoDraw = True
+8.4708 	EXP 	doll_im: autoDraw = False
+8.7216 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+8.7217 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+8.7873 	INFO 	Keyboard events cleared
+8.7873 	EXP 	doll_im: autoDraw = False
+8.7873 	EXP 	polygon: autoDraw = False
+8.7873 	EXP 	angry_doll_im: autoDraw = False
+8.7873 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+8.7873 	EXP 	doll_im: autoDraw = True
+9.0873 	EXP 	doll_im: autoDraw = False
+9.2139 	DATA 	Keypress: lcommand
+9.2218 	EXP 	Device response: <KeyPress from None: t=9.211910624988377, value=lcommand, duration=None>
+9.3254 	DATA 	Keypress: loption
+9.3383 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+9.3384 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+9.3823 	EXP 	Device response: <KeyPress from None: t=9.323897999944165, value=loption, duration=None>
+9.4039 	INFO 	Keyboard events cleared
+9.4039 	EXP 	doll_im: autoDraw = False
+9.4039 	EXP 	polygon: autoDraw = False
+9.4039 	EXP 	angry_doll_im: autoDraw = False
+9.4039 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+9.4039 	EXP 	doll_im: autoDraw = True
+9.5714 	EXP 	Device response: <KeyPress from None: t=9.555974249960855, value=escape, duration=None>
+9.6719 	EXP 	Device response: <KeyPress from None: t=9.555974249960855, value=escape, duration=0.10811687505338341>
+9.6719 	EXP 	redlight_greenlight_approach_class_demo: status = STOPPED
+9.6874 	EXP 	doll_im: autoDraw = False
+9.6881 	EXP 	redlight_greenlight_approach_class_demo: status = STOPPED
+9.6895 	INFO 	saved data to '/Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab5_redlight_greenlight_data/data/pilot_redlight_greenlight_approach_class_demo_2026-10-30_14h31.51.664.csv'
+9.6906 	INFO 	saved data to /Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab5_redlight_greenlight_data/data/pilot_redlight_greenlight_approach_class_demo_2026-10-30_14h31.51.664.psydat
+9.8930 	DEBUG 	Saving data for redlight_greenlight_approach_class_demo ExperimentHandler
+9.8974 	INFO 	Stopping keyboard key buffers.

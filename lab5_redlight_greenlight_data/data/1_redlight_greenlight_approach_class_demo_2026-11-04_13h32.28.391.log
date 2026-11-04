@@ -1,0 +1,525 @@
+10.4703 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1512, 982]. Using actual size
+10.6793 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x172cb6980>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x172cb69e0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x172d2ebc0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6793 	EXP 	window1: backgroundImage = ''
+10.6793 	EXP 	window1: backgroundFit = 'none'
+10.9058 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.9058 	EXP 	window1: recordFrameIntervals = False
+11.1230 	EXP 	window1: recordFrameIntervals = True
+11.9568 	EXP 	window1: recordFrameIntervals = False
+11.9570 	EXP 	Screen (0) actual frame rate measured at 119.94Hz
+12.7997 	EXP 	redlight_greenlight_approach_class_demo: status = STARTED
+12.8464 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.0882 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: BlackHole 2ch
+13.1912 	EXP 	: sampleRate = 44100
+13.1912 	EXP 	: channels = None
+13.1931 	EXP 	: sampleRate = 48000
+13.3409 	EXP 	Created doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.3416 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([ 0.7255, -0.8431, -0.5294]), fillColorSpace='rgb', fillRGB=array([ 0.7255, -0.8431, -0.5294]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([3., 3.]), units='height', vertices=ndarray(...), win=Window(...))
+13.3826 	EXP 	Created angry_doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='resources/squid_game_doll_angry.png', interpolate=True, mask=None, maskParams=None, name='angry_doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+0.0264 	EXP 	instr_text: autoDraw = True
+0.8507 	EXP 	Device response: <KeyPress from None: t=0.839355042000534, value=space, duration=None>
+0.8519 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.8521 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+0.9157 	DATA 	Keypress: space
+0.9241 	EXP 	instr_text: autoDraw = False
+0.9241 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+0.9241 	EXP 	doll_im: autoDraw = True
+0.9414 	EXP 	Device response: <KeyPress from None: t=0.839355042000534, value=space, duration=0.10031879099551588>
+1.2159 	EXP 	doll_im: autoDraw = False
+1.4576 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+1.4577 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+1.5243 	EXP 	doll_im: autoDraw = False
+1.5243 	EXP 	polygon: autoDraw = False
+1.5243 	EXP 	angry_doll_im: autoDraw = False
+1.5243 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+1.5243 	EXP 	doll_im: autoDraw = True
+1.8157 	EXP 	doll_im: autoDraw = False
+2.0663 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+2.0664 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+2.1242 	EXP 	doll_im: autoDraw = False
+2.1242 	EXP 	polygon: autoDraw = False
+2.1242 	EXP 	angry_doll_im: autoDraw = False
+2.1242 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+2.1242 	EXP 	doll_im: autoDraw = True
+2.4080 	EXP 	Device response: <KeyPress from None: t=2.40631712499453, value=space, duration=None>
+2.4178 	DATA 	Keypress: space
+2.4204 	EXP 	doll_im: autoDraw = False
+2.5078 	EXP 	Device response: <KeyPress from None: t=2.40631712499453, value=space, duration=0.09621162500116043>
+2.6744 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+2.6753 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+2.7492 	EXP 	doll_im: autoDraw = False
+2.7492 	EXP 	polygon: autoDraw = False
+2.7492 	EXP 	angry_doll_im: autoDraw = False
+2.7492 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+2.7492 	EXP 	doll_im: autoDraw = True
+3.0409 	EXP 	doll_im: autoDraw = False
+3.2823 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+3.2824 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+3.3580 	EXP 	doll_im: autoDraw = False
+3.3580 	EXP 	polygon: autoDraw = False
+3.3580 	EXP 	angry_doll_im: autoDraw = False
+3.3580 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+3.3580 	EXP 	doll_im: autoDraw = True
+3.6433 	DATA 	Keypress: space
+3.6463 	EXP 	Device response: <KeyPress from None: t=3.637163374994998, value=space, duration=None>
+3.6533 	EXP 	doll_im: autoDraw = False
+3.7536 	EXP 	Device response: <KeyPress from None: t=3.637163374994998, value=space, duration=0.10832425000262447>
+3.8864 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+3.8865 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+3.9446 	EXP 	doll_im: autoDraw = False
+3.9446 	EXP 	polygon: autoDraw = False
+3.9446 	EXP 	angry_doll_im: autoDraw = False
+3.9446 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+3.9446 	EXP 	doll_im: autoDraw = True
+4.2367 	EXP 	doll_im: autoDraw = False
+4.2786 	EXP 	Device response: <KeyPress from None: t=4.275167624997266, value=space, duration=None>
+4.2793 	DATA 	Keypress: space
+4.3787 	EXP 	Device response: <KeyPress from None: t=4.275167624997266, value=space, duration=0.09632645799865713>
+4.4871 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+4.4872 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+4.5536 	EXP 	doll_im: autoDraw = False
+4.5536 	EXP 	polygon: autoDraw = False
+4.5536 	EXP 	angry_doll_im: autoDraw = False
+4.5536 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+4.5536 	EXP 	doll_im: autoDraw = True
+4.8451 	EXP 	doll_im: autoDraw = False
+5.0948 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+5.0949 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+5.1621 	EXP 	doll_im: autoDraw = False
+5.1621 	EXP 	polygon: autoDraw = False
+5.1621 	EXP 	angry_doll_im: autoDraw = False
+5.1621 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+5.1621 	EXP 	doll_im: autoDraw = True
+5.4120 	EXP 	Device response: <KeyPress from None: t=5.409147792001022, value=space, duration=None>
+5.4127 	DATA 	Keypress: space
+5.4534 	EXP 	doll_im: autoDraw = False
+5.5282 	EXP 	Device response: <KeyPress from None: t=5.409147792001022, value=space, duration=0.11232695799844805>
+5.6952 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+5.6953 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+5.7619 	EXP 	doll_im: autoDraw = False
+5.7619 	EXP 	polygon: autoDraw = False
+5.7619 	EXP 	angry_doll_im: autoDraw = False
+5.7619 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+5.7619 	EXP 	doll_im: autoDraw = True
+6.0534 	EXP 	doll_im: autoDraw = False
+6.3035 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+6.3036 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+6.3702 	EXP 	doll_im: autoDraw = False
+6.3702 	EXP 	polygon: autoDraw = False
+6.3702 	EXP 	angry_doll_im: autoDraw = False
+6.3702 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+6.3702 	EXP 	doll_im: autoDraw = True
+6.6618 	EXP 	doll_im: autoDraw = False
+6.9122 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+6.9123 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+6.9700 	EXP 	doll_im: autoDraw = False
+6.9700 	EXP 	polygon: autoDraw = False
+6.9700 	EXP 	angry_doll_im: autoDraw = False
+6.9700 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+6.9700 	EXP 	doll_im: autoDraw = True
+7.2617 	EXP 	doll_im: autoDraw = False
+7.5202 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+7.5202 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+7.5788 	EXP 	doll_im: autoDraw = False
+7.5788 	EXP 	polygon: autoDraw = False
+7.5788 	EXP 	angry_doll_im: autoDraw = False
+7.5788 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+7.5788 	EXP 	doll_im: autoDraw = True
+7.8700 	EXP 	doll_im: autoDraw = False
+8.1282 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+8.1284 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+8.1955 	EXP 	doll_im: autoDraw = False
+8.1955 	EXP 	polygon: autoDraw = False
+8.1955 	EXP 	angry_doll_im: autoDraw = False
+8.1955 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+8.1955 	EXP 	doll_im: autoDraw = True
+8.4203 	EXP 	Device response: <KeyPress from None: t=8.418075875000795, value=space, duration=None>
+8.4216 	DATA 	Keypress: space
+8.4867 	EXP 	doll_im: autoDraw = False
+8.5619 	EXP 	Device response: <KeyPress from None: t=8.418075875000795, value=space, duration=0.1403139999965788>
+8.7456 	EXP 	doll_im: autoDraw = False
+8.7456 	EXP 	polygon: autoDraw = True
+8.7456 	EXP 	angry_doll_im: autoDraw = True
+11.7286 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+11.7288 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+11.7954 	EXP 	polygon: autoDraw = False
+11.7954 	EXP 	angry_doll_im: autoDraw = False
+11.7954 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+11.7954 	EXP 	doll_im: autoDraw = True
+12.0867 	EXP 	doll_im: autoDraw = False
+12.3286 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+12.3287 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+12.3865 	EXP 	doll_im: autoDraw = False
+12.3865 	EXP 	polygon: autoDraw = False
+12.3865 	EXP 	angry_doll_im: autoDraw = False
+12.3865 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+12.3865 	EXP 	doll_im: autoDraw = True
+12.6785 	EXP 	doll_im: autoDraw = False
+12.9369 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+12.9370 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+13.0030 	EXP 	doll_im: autoDraw = False
+13.0030 	EXP 	polygon: autoDraw = False
+13.0030 	EXP 	angry_doll_im: autoDraw = False
+13.0030 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+13.0030 	EXP 	doll_im: autoDraw = True
+13.2950 	EXP 	doll_im: autoDraw = False
+13.3118 	EXP 	Device response: <KeyPress from None: t=13.307564457994886, value=space, duration=None>
+13.3126 	DATA 	Keypress: space
+13.3949 	EXP 	Device response: <KeyPress from None: t=13.307564457994886, value=space, duration=0.085901250000461>
+13.5453 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+13.5454 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+13.6119 	EXP 	doll_im: autoDraw = False
+13.6119 	EXP 	polygon: autoDraw = False
+13.6119 	EXP 	angry_doll_im: autoDraw = False
+13.6119 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+13.6119 	EXP 	doll_im: autoDraw = True
+13.9074 	EXP 	doll_im: autoDraw = False
+14.1494 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+14.1495 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+14.2076 	EXP 	doll_im: autoDraw = False
+14.2076 	EXP 	polygon: autoDraw = False
+14.2076 	EXP 	angry_doll_im: autoDraw = False
+14.2076 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+14.2076 	EXP 	doll_im: autoDraw = True
+14.4992 	EXP 	doll_im: autoDraw = False
+14.7577 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+14.7578 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+14.8246 	EXP 	doll_im: autoDraw = False
+14.8246 	EXP 	polygon: autoDraw = False
+14.8246 	EXP 	angry_doll_im: autoDraw = False
+14.8246 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+14.8246 	EXP 	doll_im: autoDraw = True
+15.0869 	EXP 	Device response: <KeyPress from None: t=15.08536012499826, value=space, duration=None>
+15.0882 	DATA 	Keypress: space
+15.1202 	EXP 	doll_im: autoDraw = False
+15.2036 	EXP 	Device response: <KeyPress from None: t=15.08536012499826, value=space, duration=0.11638745800155448>
+15.3619 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+15.3620 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+15.4286 	EXP 	doll_im: autoDraw = False
+15.4286 	EXP 	polygon: autoDraw = False
+15.4286 	EXP 	angry_doll_im: autoDraw = False
+15.4286 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+15.4286 	EXP 	doll_im: autoDraw = True
+15.7201 	EXP 	doll_im: autoDraw = False
+15.9702 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+15.9703 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+16.0370 	EXP 	doll_im: autoDraw = False
+16.0370 	EXP 	polygon: autoDraw = False
+16.0370 	EXP 	angry_doll_im: autoDraw = False
+16.0370 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+16.0370 	EXP 	doll_im: autoDraw = True
+16.3284 	EXP 	doll_im: autoDraw = False
+16.5780 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+16.5781 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+16.6452 	EXP 	doll_im: autoDraw = False
+16.6452 	EXP 	polygon: autoDraw = False
+16.6452 	EXP 	angry_doll_im: autoDraw = False
+16.6452 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+16.6452 	EXP 	doll_im: autoDraw = True
+16.8246 	DATA 	Keypress: space
+16.8288 	EXP 	Device response: <KeyPress from None: t=16.822277125000255, value=space, duration=None>
+16.9366 	EXP 	doll_im: autoDraw = False
+16.9536 	EXP 	Device response: <KeyPress from None: t=16.822277125000255, value=space, duration=0.12432308300049044>
+17.1891 	EXP 	doll_im: autoDraw = False
+17.1891 	EXP 	polygon: autoDraw = True
+17.1891 	EXP 	angry_doll_im: autoDraw = True
+20.1781 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+20.1782 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+20.2370 	EXP 	polygon: autoDraw = False
+20.2370 	EXP 	angry_doll_im: autoDraw = False
+20.2370 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+20.2370 	EXP 	doll_im: autoDraw = True
+20.5324 	EXP 	doll_im: autoDraw = False
+20.7826 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+20.7827 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+20.8412 	EXP 	doll_im: autoDraw = False
+20.8412 	EXP 	polygon: autoDraw = False
+20.8412 	EXP 	angry_doll_im: autoDraw = False
+20.8412 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+20.8412 	EXP 	doll_im: autoDraw = True
+20.9911 	EXP 	Device response: <KeyPress from None: t=20.98761554199882, value=space, duration=None>
+20.9920 	DATA 	Keypress: space
+21.1324 	EXP 	doll_im: autoDraw = False
+21.1573 	EXP 	Device response: <KeyPress from None: t=20.98761554199882, value=space, duration=0.1656971659976989>
+21.3911 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+21.3912 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+21.4491 	EXP 	doll_im: autoDraw = False
+21.4491 	EXP 	polygon: autoDraw = False
+21.4491 	EXP 	angry_doll_im: autoDraw = False
+21.4491 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+21.4491 	EXP 	doll_im: autoDraw = True
+21.6961 	DATA 	Keypress: space
+21.6995 	EXP 	Device response: <KeyPress from None: t=21.692965249996632, value=space, duration=None>
+21.7405 	EXP 	doll_im: autoDraw = False
+21.8328 	EXP 	Device response: <KeyPress from None: t=21.692965249996632, value=space, duration=0.13632383300137008>
+21.9995 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+21.9996 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+22.0661 	EXP 	doll_im: autoDraw = False
+22.0661 	EXP 	polygon: autoDraw = False
+22.0661 	EXP 	angry_doll_im: autoDraw = False
+22.0661 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+22.0661 	EXP 	doll_im: autoDraw = True
+22.3575 	EXP 	doll_im: autoDraw = False
+22.6077 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+22.6078 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+22.6746 	EXP 	doll_im: autoDraw = False
+22.6746 	EXP 	polygon: autoDraw = False
+22.6746 	EXP 	angry_doll_im: autoDraw = False
+22.6746 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+22.6746 	EXP 	doll_im: autoDraw = True
+22.9126 	DATA 	Keypress: space
+22.9157 	EXP 	Device response: <KeyPress from None: t=22.90992995799752, value=space, duration=None>
+22.9659 	EXP 	doll_im: autoDraw = False
+23.0574 	EXP 	Device response: <KeyPress from None: t=22.90992995799752, value=space, duration=0.1403403750009602>
+23.2157 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+23.2158 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+23.2737 	EXP 	doll_im: autoDraw = False
+23.2737 	EXP 	polygon: autoDraw = False
+23.2737 	EXP 	angry_doll_im: autoDraw = False
+23.2737 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+23.2737 	EXP 	doll_im: autoDraw = True
+23.5624 	DATA 	Keypress: space
+23.5654 	EXP 	doll_im: autoDraw = False
+23.5658 	EXP 	Device response: <KeyPress from None: t=23.559924207998847, value=space, duration=None>
+23.6907 	EXP 	Device response: <KeyPress from None: t=23.559924207998847, value=space, duration=0.12431879199721152>
+23.8240 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+23.8241 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+23.8820 	EXP 	doll_im: autoDraw = False
+23.8820 	EXP 	polygon: autoDraw = False
+23.8820 	EXP 	angry_doll_im: autoDraw = False
+23.8820 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+23.8820 	EXP 	doll_im: autoDraw = True
+24.1737 	EXP 	doll_im: autoDraw = False
+24.4243 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+24.4244 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+24.4824 	EXP 	doll_im: autoDraw = False
+24.4824 	EXP 	polygon: autoDraw = False
+24.4824 	EXP 	angry_doll_im: autoDraw = False
+24.4824 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+24.4824 	EXP 	doll_im: autoDraw = True
+24.7742 	EXP 	doll_im: autoDraw = False
+25.0327 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+25.0328 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+25.0987 	EXP 	doll_im: autoDraw = False
+25.0987 	EXP 	polygon: autoDraw = False
+25.0987 	EXP 	angry_doll_im: autoDraw = False
+25.0987 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+25.0987 	EXP 	doll_im: autoDraw = True
+25.3909 	EXP 	doll_im: autoDraw = False
+25.6410 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+25.6411 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+25.7076 	EXP 	doll_im: autoDraw = False
+25.7076 	EXP 	polygon: autoDraw = False
+25.7076 	EXP 	angry_doll_im: autoDraw = False
+25.7076 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+25.7076 	EXP 	doll_im: autoDraw = True
+25.8720 	DATA 	Keypress: space
+25.8749 	EXP 	Device response: <KeyPress from None: t=25.868892667000182, value=space, duration=None>
+25.9986 	EXP 	doll_im: autoDraw = False
+25.9990 	EXP 	Device response: <KeyPress from None: t=25.868892667000182, value=space, duration=0.12830812500033062>
+26.2162 	EXP 	Device response: <KeyPress from None: t=26.21286579199659, value=space, duration=None>
+26.2169 	DATA 	Keypress: space
+26.2493 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+26.2494 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+26.3075 	EXP 	doll_im: autoDraw = False
+26.3075 	EXP 	polygon: autoDraw = False
+26.3075 	EXP 	angry_doll_im: autoDraw = False
+26.3075 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+26.3075 	EXP 	doll_im: autoDraw = True
+26.3577 	EXP 	Device response: <KeyPress from None: t=26.21286579199659, value=space, duration=0.1403357910021441>
+26.5992 	EXP 	doll_im: autoDraw = False
+26.8578 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+26.8579 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+26.9028 	EXP 	Device response: <KeyPress from None: t=26.89588383299997, value=space, duration=None>
+26.9040 	DATA 	Keypress: space
+26.9162 	EXP 	doll_im: autoDraw = False
+26.9162 	EXP 	polygon: autoDraw = False
+26.9162 	EXP 	angry_doll_im: autoDraw = False
+26.9162 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+26.9162 	EXP 	doll_im: autoDraw = True
+27.0328 	EXP 	Device response: <KeyPress from None: t=26.89588383299997, value=space, duration=0.12832120899838628>
+27.2075 	EXP 	doll_im: autoDraw = False
+27.4660 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+27.4661 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+27.5243 	EXP 	doll_im: autoDraw = False
+27.5243 	EXP 	polygon: autoDraw = False
+27.5243 	EXP 	angry_doll_im: autoDraw = False
+27.5243 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+27.5243 	EXP 	doll_im: autoDraw = True
+27.8130 	DATA 	Keypress: space
+27.8159 	EXP 	doll_im: autoDraw = False
+27.8162 	EXP 	Device response: <KeyPress from None: t=27.810806417001004, value=space, duration=None>
+27.9328 	EXP 	Device response: <KeyPress from None: t=27.810806417001004, value=space, duration=0.12047004099440528>
+28.0742 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+28.0743 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+28.1323 	EXP 	doll_im: autoDraw = False
+28.1323 	EXP 	polygon: autoDraw = False
+28.1323 	EXP 	angry_doll_im: autoDraw = False
+28.1323 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+28.1323 	EXP 	doll_im: autoDraw = True
+28.4242 	EXP 	doll_im: autoDraw = False
+28.4967 	DATA 	Keypress: space
+28.4995 	EXP 	Device response: <KeyPress from None: t=28.4938405829962, value=space, duration=None>
+28.6161 	EXP 	Device response: <KeyPress from None: t=28.4938405829962, value=space, duration=0.11630458400031785>
+28.6744 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+28.6745 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+28.7411 	EXP 	doll_im: autoDraw = False
+28.7411 	EXP 	polygon: autoDraw = False
+28.7411 	EXP 	angry_doll_im: autoDraw = False
+28.7411 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+28.7411 	EXP 	doll_im: autoDraw = True
+29.0325 	EXP 	doll_im: autoDraw = False
+29.2822 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+29.2823 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+29.3496 	EXP 	doll_im: autoDraw = False
+29.3496 	EXP 	polygon: autoDraw = False
+29.3496 	EXP 	angry_doll_im: autoDraw = False
+29.3496 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+29.3496 	EXP 	doll_im: autoDraw = True
+29.5746 	EXP 	Device response: <KeyPress from None: t=29.57180949999747, value=space, duration=None>
+29.5760 	DATA 	Keypress: space
+29.6408 	EXP 	doll_im: autoDraw = False
+29.6996 	EXP 	Device response: <KeyPress from None: t=29.57180949999747, value=space, duration=0.12032637499942211>
+29.8827 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+29.8828 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+29.9493 	EXP 	doll_im: autoDraw = False
+29.9493 	EXP 	polygon: autoDraw = False
+29.9493 	EXP 	angry_doll_im: autoDraw = False
+29.9493 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+29.9493 	EXP 	doll_im: autoDraw = True
+30.1637 	DATA 	Keypress: space
+30.1664 	EXP 	Device response: <KeyPress from None: t=30.1608069579961, value=space, duration=None>
+30.2410 	EXP 	doll_im: autoDraw = False
+30.2911 	EXP 	Device response: <KeyPress from None: t=30.1608069579961, value=space, duration=0.12431758399907267>
+30.5005 	EXP 	doll_im: autoDraw = False
+30.5005 	EXP 	polygon: autoDraw = True
+30.5005 	EXP 	angry_doll_im: autoDraw = True
+33.4909 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+33.4910 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+33.5580 	EXP 	polygon: autoDraw = False
+33.5580 	EXP 	angry_doll_im: autoDraw = False
+33.5580 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+33.5580 	EXP 	doll_im: autoDraw = True
+33.8531 	EXP 	doll_im: autoDraw = False
+34.0424 	DATA 	Keypress: space
+34.0452 	EXP 	Device response: <KeyPress from None: t=34.038733458000934, value=space, duration=None>
+34.0868 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+34.0869 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+34.1454 	EXP 	doll_im: autoDraw = False
+34.1454 	EXP 	polygon: autoDraw = False
+34.1454 	EXP 	angry_doll_im: autoDraw = False
+34.1454 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+34.1454 	EXP 	doll_im: autoDraw = True
+34.1531 	EXP 	Device response: <KeyPress from None: t=34.038733458000934, value=space, duration=0.10832154199306387>
+34.4409 	EXP 	doll_im: autoDraw = False
+34.4411 	EXP 	Device response: <KeyPress from None: t=34.4398292919941, value=space, duration=None>
+34.4459 	DATA 	Keypress: space
+34.5745 	EXP 	Device response: <KeyPress from None: t=34.4398292919941, value=space, duration=0.13219904100697022>
+34.6911 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+34.6912 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+34.7577 	EXP 	doll_im: autoDraw = False
+34.7577 	EXP 	polygon: autoDraw = False
+34.7577 	EXP 	angry_doll_im: autoDraw = False
+34.7577 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+34.7577 	EXP 	doll_im: autoDraw = True
+34.7662 	EXP 	Device response: <KeyPress from None: t=34.76270345800003, value=space, duration=None>
+34.7670 	DATA 	Keypress: space
+34.8910 	EXP 	Device response: <KeyPress from None: t=34.76270345800003, value=space, duration=0.12432429199543549>
+35.0491 	EXP 	doll_im: autoDraw = False
+35.3070 	EXP 	doll_im: autoDraw = False
+35.3070 	EXP 	polygon: autoDraw = True
+35.3070 	EXP 	angry_doll_im: autoDraw = True
+38.2909 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+38.2910 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+38.3495 	EXP 	polygon: autoDraw = False
+38.3495 	EXP 	angry_doll_im: autoDraw = False
+38.3495 	EXP 	polygon: autoDraw = False
+38.3495 	EXP 	angry_doll_im: autoDraw = False
+38.3495 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+38.3495 	EXP 	doll_im: autoDraw = True
+38.6444 	EXP 	doll_im: autoDraw = False
+38.6667 	DATA 	Keypress: space
+38.6698 	EXP 	Device response: <KeyPress from None: t=38.66460312499839, value=space, duration=None>
+38.7864 	EXP 	Device response: <KeyPress from None: t=38.66460312499839, value=space, duration=0.120342583002639>
+38.8950 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+38.8951 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+38.9616 	EXP 	doll_im: autoDraw = False
+38.9616 	EXP 	polygon: autoDraw = False
+38.9616 	EXP 	angry_doll_im: autoDraw = False
+38.9616 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+38.9616 	EXP 	doll_im: autoDraw = True
+39.2532 	EXP 	doll_im: autoDraw = False
+39.5034 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+39.5035 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+39.5614 	EXP 	doll_im: autoDraw = False
+39.5614 	EXP 	polygon: autoDraw = False
+39.5614 	EXP 	angry_doll_im: autoDraw = False
+39.5614 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+39.5614 	EXP 	doll_im: autoDraw = True
+39.6075 	DATA 	Keypress: space
+39.6119 	EXP 	Device response: <KeyPress from None: t=39.60360641699663, value=space, duration=None>
+39.7789 	EXP 	Device response: <KeyPress from None: t=39.60360641699663, value=space, duration=0.17228495800372912>
+39.8533 	EXP 	doll_im: autoDraw = False
+40.1251 	EXP 	doll_im: autoDraw = False
+40.1251 	EXP 	polygon: autoDraw = True
+40.1251 	EXP 	angry_doll_im: autoDraw = True
+43.1117 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+43.1118 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+43.1699 	EXP 	polygon: autoDraw = False
+43.1699 	EXP 	angry_doll_im: autoDraw = False
+43.1699 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+43.1699 	EXP 	doll_im: autoDraw = True
+43.4616 	EXP 	doll_im: autoDraw = False
+43.7119 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+43.7119 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+43.7785 	EXP 	doll_im: autoDraw = False
+43.7785 	EXP 	polygon: autoDraw = False
+43.7785 	EXP 	angry_doll_im: autoDraw = False
+43.7785 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+43.7785 	EXP 	doll_im: autoDraw = True
+43.9848 	DATA 	Keypress: space
+43.9877 	EXP 	Device response: <KeyPress from None: t=43.98179141699802, value=space, duration=None>
+44.0700 	EXP 	doll_im: autoDraw = False
+44.1116 	EXP 	Device response: <KeyPress from None: t=43.98179141699802, value=space, duration=0.12584654099919135>
+44.3201 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+44.3202 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+44.3783 	EXP 	doll_im: autoDraw = False
+44.3783 	EXP 	polygon: autoDraw = False
+44.3783 	EXP 	angry_doll_im: autoDraw = False
+44.3783 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+44.3783 	EXP 	doll_im: autoDraw = True
+44.6699 	EXP 	doll_im: autoDraw = False
+44.9285 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+44.9286 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+44.9945 	EXP 	doll_im: autoDraw = False
+44.9945 	EXP 	polygon: autoDraw = False
+44.9945 	EXP 	angry_doll_im: autoDraw = False
+44.9945 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+44.9945 	EXP 	doll_im: autoDraw = True
+45.2866 	EXP 	doll_im: autoDraw = False
+45.5369 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+45.5370 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+45.6035 	EXP 	doll_im: autoDraw = False
+45.6035 	EXP 	polygon: autoDraw = False
+45.6035 	EXP 	angry_doll_im: autoDraw = False
+45.6035 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+45.6035 	EXP 	doll_im: autoDraw = True
+45.7787 	EXP 	Device response: <KeyPress from None: t=45.777317957996274, value=space, duration=None>
+45.7822 	DATA 	Keypress: space
+45.8950 	EXP 	doll_im: autoDraw = False
+45.9620 	EXP 	Device response: <KeyPress from None: t=45.777317957996274, value=space, duration=0.17628754200268304>
+46.1452 	EXP 	New trial (rep=50, index=0): <Trial 50 (0 in rep 50) data={'thisN': 50, 'thisTrialN': 0, 'thisRepN': 50}>
+46.1452 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+46.2032 	EXP 	doll_im: autoDraw = False
+46.2032 	EXP 	polygon: autoDraw = False
+46.2032 	EXP 	angry_doll_im: autoDraw = False
+46.2032 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+46.2032 	EXP 	doll_im: autoDraw = True
+46.4949 	EXP 	doll_im: autoDraw = False
+46.5013 	DATA 	Keypress: space
+46.5041 	EXP 	Device response: <KeyPress from None: t=46.49827245799679, value=space, duration=None>
+46.6202 	EXP 	Device response: <KeyPress from None: t=46.49827245799679, value=space, duration=0.12041558400233043>
+46.7699 	EXP 	doll_im: autoDraw = False
+46.7699 	EXP 	polygon: autoDraw = False
+46.7699 	EXP 	angry_doll_im: autoDraw = False
+46.7700 	EXP 	redlight_greenlight_approach_class_demo: status = STOPPED

@@ -1,0 +1,65 @@
+11.0125 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+11.0136 	INFO 	Loaded monitor calibration from ['2025_05_20 22:27']
+11.2424 	INFO 	Using renderer 'Apple M4' for graphics
+11.2424 	INFO 	OpenGL version supported by driver is 2..
+11.3074 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1753a57e0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x1753a5780>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1753cc190>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(356.0), np.float64(191.0)], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.3074 	EXP 	window1: backgroundImage = ''
+11.3074 	EXP 	window1: backgroundFit = 'none'
+11.3270 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3350 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3430 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3593 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3671 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3752 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3833 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3910 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.3989 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4066 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4144 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4222 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4378 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4457 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4536 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4613 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4689 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4770 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4847 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.4853 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.4889 	DEBUG 	Upload of Texture Font fontname complete
+11.4998 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.5078 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.5157 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.5158 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.5172 	DEBUG 	Upload of Texture Font fontname complete
+11.5181 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.5181 	EXP 	window1: recordFrameIntervals = False
+11.6572 	EXP 	window1: recordFrameIntervals = True
+12.4905 	EXP 	window1: recordFrameIntervals = False
+12.4907 	EXP 	Screen (0) actual frame rate measured at 119.76Hz
+12.5011 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5088 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5166 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5246 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5325 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5404 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5480 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5559 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5717 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.5718 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.5735 	DEBUG 	Upload of Texture Font fontname complete
+13.3945 	INFO 	keyboard.Keyboard is using ptb backend.
+13.3945 	EXP 	redlight_greenlight_casino_final: status = STARTED
+13.4378 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5766 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+13.6510 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Crestron
+13.6510 	DEBUG 	Found speaker device: Crestron (0.0)
+13.6943 	INFO 	Created stream for speaker device: Crestron (0.0)
+13.7565 	EXP 	: sampleRate = 48000
+13.7566 	EXP 	: channels = None
+13.8742 	DEBUG 	Saving data for redlight_greenlight_casino_final ExperimentHandler
+13.8754 	INFO 	saved data to /Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab4_redlight_greenlight_approach/data/pilot_redlight_greenlight_casino_final_2026-10-23_14h29.43.933.psydat
+13.8757 	INFO 	saved data to '/Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab4_redlight_greenlight_approach/data/pilot_redlight_greenlight_casino_final_2026-10-23_14h29.43.933.csv'
+13.8819 	INFO 	Stopping keyboard key buffers.

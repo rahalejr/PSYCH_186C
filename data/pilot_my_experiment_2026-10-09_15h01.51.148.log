@@ -1,0 +1,85 @@
+3.7354 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+3.7368 	INFO 	Loaded monitor calibration from ['2025_05_20 22:27']
+3.9165 	INFO 	Using renderer 'Apple M4' for graphics
+3.9165 	INFO 	OpenGL version supported by driver is 2..
+3.9717 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x173796830>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x173796890>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1737afbb0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.9717 	EXP 	window1: backgroundImage = ''
+3.9717 	EXP 	window1: backgroundFit = 'none'
+3.9870 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0034 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0118 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0201 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0281 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0363 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0447 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0526 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0606 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0688 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0770 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0935 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1016 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1099 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1181 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1262 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1343 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1427 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1513 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1516 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.1561 	DEBUG 	Upload of Texture Font fontname complete
+4.1677 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1759 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1842 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.1843 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.1859 	DEBUG 	Upload of Texture Font fontname complete
+4.1869 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.1869 	EXP 	window1: recordFrameIntervals = False
+4.3761 	EXP 	window1: recordFrameIntervals = True
+6.0428 	EXP 	window1: recordFrameIntervals = False
+6.0429 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+6.0535 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0615 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0695 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0777 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0858 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.0940 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1018 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1099 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1180 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1262 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1263 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1278 	DEBUG 	Upload of Texture Font fontname complete
+6.6535 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6535 	EXP 	my_experiment: status = STARTED
+6.6929 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instruction_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.6961 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6964 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6967 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6973 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6975 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6980 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6984 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6987 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6990 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6996 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.6999 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7003 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7007 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7008 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.7028 	DEBUG 	Upload of Texture Font fontname complete
+6.7055 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7059 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7062 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.7076 	DEBUG 	Upload of Texture Font fontname complete
+0.0346 	EXP 	instruction_text: autoDraw = True
+6.8885 	DATA 	Mouse: Left button down, pos=(386,119)
+6.9179 	EXP 	instruction_text: autoDraw = False
+6.9186 	EXP 	my_experiment: status = STOPPED
+6.9192 	INFO 	saved data to '/Users/culdesac/Documents/PhD/Courses/PSYCH 186C/data/pilot_my_experiment_2026-10-09_15h01.51.148.csv'
+6.9194 	INFO 	saved data to /Users/culdesac/Documents/PhD/Courses/PSYCH 186C/data/pilot_my_experiment_2026-10-09_15h01.51.148.psydat
+7.0250 	DEBUG 	Saving data for my_experiment ExperimentHandler
+7.0260 	INFO 	Stopping keyboard key buffers.

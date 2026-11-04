@@ -1,0 +1,196 @@
+4.8676 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.8687 	INFO 	Loaded monitor calibration from ['2025_05_20 22:27']
+5.0464 	INFO 	Using renderer 'Apple M4' for graphics
+5.0464 	INFO 	OpenGL version supported by driver is 2..
+5.1054 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x17351b6d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x17351b670>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x173559600>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.1054 	EXP 	window1: backgroundImage = ''
+5.1054 	EXP 	window1: backgroundFit = 'none'
+5.1239 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1318 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1481 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1562 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1642 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1722 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1804 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1883 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2044 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2124 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2205 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2286 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2366 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2529 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2608 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2687 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2770 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2848 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2850 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.2886 	DEBUG 	Upload of Texture Font fontname complete
+5.2993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3074 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3154 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3155 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.3169 	DEBUG 	Upload of Texture Font fontname complete
+5.3178 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.3179 	EXP 	window1: recordFrameIntervals = False
+5.5128 	EXP 	window1: recordFrameIntervals = True
+7.1795 	EXP 	window1: recordFrameIntervals = False
+7.1796 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+7.1901 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1981 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2143 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2225 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2307 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2466 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2547 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2628 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2630 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.2645 	DEBUG 	Upload of Texture Font fontname complete
+8.0521 	INFO 	keyboard.Keyboard is using ptb backend.
+8.0521 	EXP 	my_experiment: status = STARTED
+8.0914 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instruction_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0955 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0957 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0960 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0964 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0966 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0974 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0977 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0980 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0984 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0987 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0990 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0997 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0998 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1019 	DEBUG 	Upload of Texture Font fontname complete
+8.1046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1050 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1052 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.1053 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.1068 	DEBUG 	Upload of Texture Font fontname complete
+8.2037 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=str(...), interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+0.0423 	EXP 	instruction_text: autoDraw = True
+1.5129 	DATA 	Mouse: Left button down, pos=(407,115)
+1.5285 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.5423 	INFO 	Keyboard events cleared
+1.5423 	EXP 	instruction_text: autoDraw = False
+1.5423 	EXP 	image: autoDraw = True
+1.5960 	DATA 	Mouse:  Left button up, pos=(407,116)
+2.5265 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+2.5424 	INFO 	Keyboard events cleared
+2.5424 	EXP 	image: autoDraw = False
+2.5424 	EXP 	image: autoDraw = False
+2.5424 	EXP 	image: autoDraw = True
+3.5264 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+3.5423 	INFO 	Keyboard events cleared
+3.5423 	EXP 	image: autoDraw = False
+3.5423 	EXP 	image: autoDraw = False
+3.5423 	EXP 	image: autoDraw = True
+4.5265 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+4.5425 	INFO 	Keyboard events cleared
+4.5424 	EXP 	image: autoDraw = False
+4.5424 	EXP 	image: autoDraw = False
+4.5424 	EXP 	image: autoDraw = True
+5.5265 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+5.5425 	INFO 	Keyboard events cleared
+5.5424 	EXP 	image: autoDraw = False
+5.5424 	EXP 	image: autoDraw = False
+5.5424 	EXP 	image: autoDraw = True
+6.5265 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+6.5424 	INFO 	Keyboard events cleared
+6.5424 	EXP 	image: autoDraw = False
+6.5424 	EXP 	image: autoDraw = False
+6.5424 	EXP 	image: autoDraw = True
+7.5265 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+7.5424 	INFO 	Keyboard events cleared
+7.5423 	EXP 	image: autoDraw = False
+7.5423 	EXP 	image: autoDraw = False
+7.5423 	EXP 	image: autoDraw = True
+8.5265 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+8.5424 	INFO 	Keyboard events cleared
+8.5424 	EXP 	image: autoDraw = False
+8.5424 	EXP 	image: autoDraw = False
+8.5424 	EXP 	image: autoDraw = True
+9.5265 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+9.5424 	INFO 	Keyboard events cleared
+9.5424 	EXP 	image: autoDraw = False
+9.5424 	EXP 	image: autoDraw = False
+9.5424 	EXP 	image: autoDraw = True
+10.5265 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+10.5425 	INFO 	Keyboard events cleared
+10.5424 	EXP 	image: autoDraw = False
+10.5424 	EXP 	image: autoDraw = False
+10.5424 	EXP 	image: autoDraw = True
+11.5265 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+11.5424 	INFO 	Keyboard events cleared
+11.5424 	EXP 	image: autoDraw = False
+11.5424 	EXP 	image: autoDraw = False
+11.5424 	EXP 	image: autoDraw = True
+12.5265 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+12.5424 	INFO 	Keyboard events cleared
+12.5424 	EXP 	image: autoDraw = False
+12.5424 	EXP 	image: autoDraw = False
+12.5424 	EXP 	image: autoDraw = True
+13.5265 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+13.5425 	INFO 	Keyboard events cleared
+13.5424 	EXP 	image: autoDraw = False
+13.5424 	EXP 	image: autoDraw = False
+13.5424 	EXP 	image: autoDraw = True
+14.5265 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+14.5421 	INFO 	Keyboard events cleared
+14.5421 	EXP 	image: autoDraw = False
+14.5421 	EXP 	image: autoDraw = False
+14.5421 	EXP 	image: autoDraw = True
+15.2453 	DATA 	Keypress: space
+15.2569 	EXP 	Device response: <KeyPress from None: t=15.235391458001686, value=space, duration=None>
+15.3099 	EXP 	Device response: <KeyPress from None: t=15.235391458001686, value=space, duration=0.06985104198975023>
+15.4198 	DATA 	Keypress: space
+15.4268 	EXP 	Device response: <KeyPress from None: t=15.409924749998027, value=space, duration=None>
+15.4595 	EXP 	Device response: <KeyPress from None: t=15.409924749998027, value=space, duration=0.04831604199716821>
+15.5265 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+15.5424 	INFO 	Keyboard events cleared
+15.5423 	EXP 	image: autoDraw = False
+15.5423 	EXP 	image: autoDraw = False
+15.5423 	EXP 	image: autoDraw = True
+15.5508 	DATA 	Keypress: space
+15.5600 	EXP 	Device response: <KeyPress from None: t=15.548924957998679, value=space, duration=None>
+15.6265 	EXP 	Device response: <KeyPress from None: t=15.548924957998679, value=space, duration=0.07231783399765845>
+16.5265 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+16.5424 	INFO 	Keyboard events cleared
+16.5424 	EXP 	image: autoDraw = False
+16.5424 	EXP 	image: autoDraw = False
+16.5424 	EXP 	image: autoDraw = True
+17.5264 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+17.5424 	INFO 	Keyboard events cleared
+17.5424 	EXP 	image: autoDraw = False
+17.5424 	EXP 	image: autoDraw = False
+17.5424 	EXP 	image: autoDraw = True
+18.5265 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+18.5424 	INFO 	Keyboard events cleared
+18.5424 	EXP 	image: autoDraw = False
+18.5424 	EXP 	image: autoDraw = False
+18.5424 	EXP 	image: autoDraw = True
+19.5265 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+19.5425 	INFO 	Keyboard events cleared
+19.5424 	EXP 	image: autoDraw = False
+19.5424 	EXP 	image: autoDraw = False
+19.5424 	EXP 	image: autoDraw = True
+20.5265 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+20.5425 	INFO 	Keyboard events cleared
+20.5425 	EXP 	image: autoDraw = False
+20.5425 	EXP 	image: autoDraw = False
+20.5425 	EXP 	image: autoDraw = True
+21.5424 	EXP 	image: autoDraw = False
+21.5424 	EXP 	image: autoDraw = False
+21.5431 	EXP 	my_experiment: status = STOPPED
+21.5446 	INFO 	saved data to '/Users/culdesac/Documents/PhD/Courses/PSYCH 186C/data/pilot_my_experiment_2026-10-09_15h09.54.783.csv'
+21.5452 	INFO 	saved data to /Users/culdesac/Documents/PhD/Courses/PSYCH 186C/data/pilot_my_experiment_2026-10-09_15h09.54.783.psydat
+21.6483 	DEBUG 	Saving data for my_experiment ExperimentHandler
+21.6509 	INFO 	Stopping keyboard key buffers.

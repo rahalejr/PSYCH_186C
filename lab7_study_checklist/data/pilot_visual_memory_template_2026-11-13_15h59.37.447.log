@@ -1,0 +1,81 @@
+5.0454 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.0464 	INFO 	Loaded monitor calibration from ['2025_05_20 22:27']
+5.2334 	INFO 	Using renderer 'Apple M4' for graphics
+5.2334 	INFO 	OpenGL version supported by driver is 2..
+5.2899 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x171573e20>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x171573dc0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1715db5e0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(356.0), np.float64(191.0)], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2899 	EXP 	window1: backgroundImage = ''
+5.2899 	EXP 	window1: backgroundFit = 'none'
+5.3049 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3126 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3203 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3283 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3362 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3438 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3517 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3596 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3672 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3756 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3834 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3913 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3991 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4069 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4147 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4226 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4305 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4458 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4538 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4614 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4616 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.4651 	DEBUG 	Upload of Texture Font fontname complete
+5.4757 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4836 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4914 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4915 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.4930 	DEBUG 	Upload of Texture Font fontname complete
+5.4938 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.4939 	EXP 	window1: recordFrameIntervals = False
+5.6319 	EXP 	window1: recordFrameIntervals = True
+5.6867 	WARNING 	t of last frame was 21.52ms (=1/46)
+6.4783 	EXP 	window1: recordFrameIntervals = False
+6.4784 	EXP 	Screen (0) actual frame rate measured at 120.12Hz
+6.4886 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4962 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5040 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5119 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5198 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5277 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5352 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5431 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5510 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5588 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.5590 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.5607 	DEBUG 	Upload of Texture Font fontname complete
+7.3572 	INFO 	keyboard.Keyboard is using ptb backend.
+7.3572 	EXP 	visual_memory_template: status = STARTED
+7.3661 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.3685 	DEBUG 	Read excel file with openpyxl: stimuli_list.xlsx
+7.3687 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 3 params
+7.3709 	DEBUG 	Read excel file with openpyxl: participant_assignment.xlsx
+7.3714 	EXP 	Imported participant_assignment.xlsx as conditions, 20 conditions, 3 params
+7.3981 	EXP 	Created encoding_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='encoding_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.4262 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='next test - memory\n\n1=old\n2=new', units='height', win=Window(...), wrapWidth=1)
+7.4289 	EXP 	Created memory_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='memory_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.4307 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='you finished\n', units='height', win=Window(...), wrapWidth=1)
+0.0311 	INFO 	Keyboard events cleared
+0.0311 	EXP 	text: text = ''
+0.0311 	EXP 	text: autoDraw = True
+0.0311 	EXP 	text: height = np.float64(0.1)
+0.0311 	EXP 	text: height = np.float64(0.1)
+0.0311 	EXP 	text: height = np.float64(0.1)
+0.0311 	EXP 	text: text = ''
+3.0179 	DATA 	Keypress: escape
+3.0296 	EXP 	Device response: <KeyPress from None: t=3.0020178749982733, value=escape, duration=None>
+3.1152 	EXP 	Device response: <KeyPress from None: t=3.0020178749982733, value=escape, duration=0.10810812501586042>
+3.1153 	EXP 	visual_memory_template: status = STOPPED
+3.1227 	EXP 	text: autoDraw = False
+3.1234 	EXP 	visual_memory_template: status = STOPPED
+3.1241 	INFO 	saved data to '/Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab7_study_checklist/data/pilot_visual_memory_template_2026-11-13_15h59.37.447.csv'
+3.1243 	INFO 	saved data to /Users/culdesac/Documents/PhD/Courses/PSYCH 186C/psychopy-lab-main/lab7_study_checklist/data/pilot_visual_memory_template_2026-11-13_15h59.37.447.psydat
+3.2141 	DEBUG 	Saving data for visual_memory_template ExperimentHandler
+3.2165 	INFO 	Stopping keyboard key buffers.
